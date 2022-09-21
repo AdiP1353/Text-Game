@@ -26,7 +26,7 @@ NPC_surface = pygame.Surface((w, h*2/3))
 NPC_surface.fill((252, 3, 3))
 
 # Player text box
-font = pygame.font.Font("fonts/Peepo.ttf", 30)
+font = pygame.font.Font("./fonts/Peepo.ttf", 30)
 user_input = ""
 text_container = pygame.Rect(w/2,300, 140, 32)
 text_container_color = pygame.Color('red')

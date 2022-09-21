@@ -13,8 +13,8 @@ pygame.init()
 # Name and icon
 screen = pygame.display.set_mode((w, h), RESIZABLE)
 pygame.display.set_caption('The Shilton Diaries')
-icon = pygame.image.load('icon.png')
-pygame.display.set_icon(icon)
+# icon = pygame.image.load('./assets/icon.png')
+# pygame.display.set_icon(icon)
 clock = pygame.time.Clock()
 
 # Surface for player input
